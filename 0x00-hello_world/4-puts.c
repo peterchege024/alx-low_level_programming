@@ -1,10 +1,6 @@
 #include <stdio.h>
-
-/**
- * 
- *
- * main ethod
- */
+/* main ethod
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
