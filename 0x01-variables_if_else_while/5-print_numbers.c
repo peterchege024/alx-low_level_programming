@@ -1,1 +1,19 @@
-5-print_numbers.c
+#include <stdlib.h>
+#include <ctype.h>
+#include <stdio.h>
+/**
+* main - Entry point
+*Return: 0 (Success)
+*/
+int main(void)
+{
+int num;
+while (num < 10)
+{
+printf("%d", num);
+num += 1
+}
+}
+putchar('\n');
+return (0);
+}
