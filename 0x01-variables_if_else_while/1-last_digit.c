@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Determine whether random number is negatif or positive
+* main - Entry point
 *Return: 0 (Success)
 */
 int main(void)
@@ -22,7 +22,7 @@ printf("Last digit of %d is %d and is 0\n", n, lastnum);
 }
 else if (lastnum < 6 && lastnum != 0)
 {
-printf("Last digit of %d is %d and is less than 6 and mot 0\n", n, lastnum);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastnum);
 }
 return (0);
 }
