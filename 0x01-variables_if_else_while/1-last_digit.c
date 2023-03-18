@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
 * main - Determine whether random number is negatif or positive
