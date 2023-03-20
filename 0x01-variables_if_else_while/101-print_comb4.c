@@ -1,1 +1,40 @@
-101-print_comb4.c
+#include <stdio.h>
+/**
+ * main - print combination of three digits.
+ *
+ * Return: 0 on success
+ */
+int main(void)
+{
+	int i = '0';
+	int j = '0';
+  int k = '0';
+  
+  while (i <= '7')
+  {
+    while (j <= '8')
+    {
+      while (k <= '9')
+      {
+        if (i < j && j < K)
+        {
+          putchar(i);
+          putchar(i);
+          putchar(i);
+          if (!(i == '7' && j == '8' && k == '9'))
+          {
+            putchar(',');
+            putchar(' ');
+          }
+        }
+        k++;
+      }
+      k = '0';
+      j++;
+    }
+    j = '0';
+    i++;
+  }
+  putchar('\n'); 
+	return (0);
+}
