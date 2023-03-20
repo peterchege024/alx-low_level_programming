@@ -19,7 +19,7 @@ putchar((n % 10) + '0');
 putchar(' ');
 putchar((m / 10) + '0');
 putchar((n % 10) + '0');
-if (i != 98 || j != 99)
+if (n != 98 || m != 99)
 {
 putchar(',');
 putchar(' ');
