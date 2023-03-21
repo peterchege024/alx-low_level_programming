@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - print numbers from 00 to 99.
+ * main - nestet loops.
  *
  * Return: 0 on success
  */
-(void)
+int _putchar(char c)
 {
 	
 	return (0);
