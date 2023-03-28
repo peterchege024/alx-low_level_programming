@@ -7,5 +7,7 @@
 */
 int add(int k, int l)
 {
+int k;
+int l;
 return (k + l);
 }
