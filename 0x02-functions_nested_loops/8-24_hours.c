@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* jack_beuer - prints every minute of Jack Beuer.
+* jack_bauer - Prints every minute of Jack Bauer.
 *Return: minutes.
 */
 void jack_bauer(void)
