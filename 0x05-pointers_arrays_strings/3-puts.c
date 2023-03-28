@@ -4,7 +4,7 @@
 * @str: String to print.
 * Return: void
 */
-void puts(char *str)
+void _puts(const char *str)
 {
 for (; *str != '\0'; str++)
 {
