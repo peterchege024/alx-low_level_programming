@@ -1,13 +1,11 @@
 #include "main.h"
 /**
 * add - add two values.
-* @k - value 1
-* @l - value 1
+* @n1 - the value 1 to be computed
+* @n2 - the value 2 to be computed
 * Return: integer.
 */
-int add(int k, int l)
+int add(int n1, int n2)
 {
-int k;
-int l;
-return (k + l);
+return (n1 + n2);
 }
