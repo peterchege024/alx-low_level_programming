@@ -6,7 +6,7 @@
 *@swapp: swap variable.
 *Return: nothing.
 */
-void swap_int(int *a, int *b, in swapp)
+void swap_int(int *a, int *b, int swapp)
 {
 swapp = *a;
 *a = *b;
