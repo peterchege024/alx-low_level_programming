@@ -25,7 +25,7 @@ printf("%d, ", k);
 }
 else
 {
-for (; k>= 98; k--)
+for (; k >= 98; k--)
 {
 if (k == 98)
 {
