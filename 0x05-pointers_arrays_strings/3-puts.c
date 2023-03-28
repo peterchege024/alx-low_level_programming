@@ -1,14 +1,16 @@
 #include "main.h"
 /**
 * _puts - prints a string. 
-* @str: String to print.
-* Return: void
+* @str: pointer to strig.
+* Return: string and new line
 */
 void _puts(char *str)
 {
-for (; *str != '\0'; str++)
+int i = 0;
+while (str[i])
 {
-putchar(*str);
+_putchar(str[i]);
+i++
 }
-putchar('\n');
+_putchar('\n');
 }
