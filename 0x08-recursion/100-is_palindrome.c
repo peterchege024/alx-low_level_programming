@@ -1,11 +1,9 @@
 #include "main.h"
-
 int if_pal(char *s, int k, int l);
 int _strlen_recursion(char *s);
 /**
 * is_palindrome - checks if palindrome
 * @s: string to reverse
-*
 * Return: 1 if it is, 0 it's not
 */
 int is_palindrome(char *s)
