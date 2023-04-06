@@ -8,4 +8,4 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 void _putchar();
-int _sqrt(n, k + 1);
+int _sqrt(n, k) + 1);
