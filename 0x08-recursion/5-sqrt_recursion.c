@@ -3,7 +3,7 @@
 int real_sqrt_recursion(int n, int k);
 /**
 * _sqrt_recursion - returns sqrt of a number
-* @n: number 
+* @n: number
 * Return: square root
 */
 int _sqrt_recursion(int n)
@@ -13,7 +13,7 @@ return (-1);
 return (real_sqrt_recursion(n, 0));
 }
 /**
-* _sqrt_recursion - recurses sqrt
+* real_sqrt_recursion - recurses sqrt
 * @n: number
 * @k: iterator
 * Return: the square root
