@@ -6,8 +6,9 @@
 *@k: the iteration number
 *Return: squreroot.
 */
-int _sqrt_recursion(int n, int k)
+int _sqrt_recursion(int n)
 {
+int k;
 int sqrt = k * k;
 if (sqrt > n)
 return (-1);
