@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
-*_is digit - checks if digit.
+*_isdigit - checks if digit.
 *@c: value to be checked
 * Return: digit value.
 */
