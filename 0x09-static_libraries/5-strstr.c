@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
-**_strstr - Entry point.
+*_strstr - Entry point.
 *@haystack: input.
 *@needle: input
 *Return: 0.
