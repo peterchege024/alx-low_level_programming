@@ -3,7 +3,12 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+*isalpha - Entry point.
+*@c: input.
+*Return: 0.
+*/
 int _isalpha(int c)
 {
-return isalpha(c);
+return (isalpha(c));
 }
