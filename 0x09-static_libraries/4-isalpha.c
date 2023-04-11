@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
-*isalpha - Entry point.
+*_isalpha - Entry point.
 *@c: input.
 *Return: 0.
 */
