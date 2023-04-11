@@ -3,7 +3,13 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+**_strpbrk - Entry point.
+*@s: input.
+*@accept: input
+*Return: 0.
+*/
 char *_strpbrk(char *s, char *accept)
 {
-return strpbrk(s, accept);
+return (strpbrk(s, accept));
 }
