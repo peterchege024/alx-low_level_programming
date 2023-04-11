@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-/**_strchr - Entry point.
+/**
+*_strchr - Entry point.
 *@s: input.
 *@c: input
 *Return: 0.
