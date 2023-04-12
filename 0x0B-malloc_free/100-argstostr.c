@@ -33,5 +33,5 @@ if (str[m] == '\0')
 str[m++] = '\n';
 }
 }
-return (str);	
+return (str);
 }
