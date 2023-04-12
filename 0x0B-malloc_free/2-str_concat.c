@@ -6,7 +6,7 @@
 * @s2: input 2
 * Return: concat of s1 and s2
 */
-char *str_concat(char *s1, char *s2)	
+char *str_concat(char *s1, char *s2)
 {
 char *conct;
 int i, ci;
@@ -34,5 +34,5 @@ conct[i] = s2[ci];
 i++, ci++;
 }
 conct[i] = '\0';
-return (conct);	
+return (conct);
 }
