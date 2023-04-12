@@ -5,10 +5,10 @@
 * @ac: input
 * @av: double
 * Return: 0
-*/		
+*/
 char *argstostr(int ac, char **av)
 {
-int j, k, m, z = 0;
+int j, k, m = 0, z = 0;
 char *str;
 if (ac == 0 || av == NULL)
 return (NULL);
