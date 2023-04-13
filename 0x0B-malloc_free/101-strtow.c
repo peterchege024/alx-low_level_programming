@@ -21,7 +21,7 @@ e = 1;
 return (g);
 }
 /**
-* **strtow - string into words
+**strtow - string into words
 * @str: string to split
 * Return: pointer to an array of strings (Success)
 * or NULL (Error)
@@ -60,5 +60,5 @@ else if (c++ == 0)
 strt = j;
 }
 trix[m] = NULL;
-return (trix);	
+return (trix);
 }
