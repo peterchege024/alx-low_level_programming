@@ -13,7 +13,7 @@ unsigned int cot;
 cot = 0;
 while (cot < strlen(str)) /*count string*/
 {
-if (!isdigit(str[count])) /*check if str there are digit*/
+if (!isdigit(str[cot])) /*check if str there are digit*/
 {
 return (0);
 }
