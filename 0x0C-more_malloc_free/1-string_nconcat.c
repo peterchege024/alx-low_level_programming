@@ -28,7 +28,7 @@ y++;
 }
 while (n < ln2 && y < (ln1 + n))
 s[y++] = s2[z++];
-while (n >= ln2 && i < (ln1 + ln2))
+while (n >= ln2 && y < (ln1 + ln2))
 s[y++] = s2[z++];
 s[y] = '\0';
 return (s);
