@@ -60,7 +60,7 @@ result = malloc(sizeof(int) * ln);
 if (!result)
 return (1);
 for (v = 0; v <= ln1 + ln2; v++)
-result[i] = 0;
+result[v] = 0;
 for (ln1 = ln1 - 1; ln1 >= 0; ln1--)
 {
 dgt1 = s1[ln1] - '0';
