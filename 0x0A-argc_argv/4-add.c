@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
-* check_num - digit in string.
+* check_num - check dihit in a string
 * @str: array str
 * Return: Always 0 (Success)
 */
@@ -11,9 +11,9 @@ int check_num(char *str)
 {
 unsigned int cot;
 cot = 0;
-while (cot < strlen(str))
+while (cot < strlen(str)) /*count string*/
 {
-if (!isdigit(str[cot]))
+if (!isdigit(str[count])) /*check if str there are digit*/
 {
 return (0);
 }
@@ -22,7 +22,7 @@ cot++;
 return (1);
 }
 /**
-* main - Print the name of program
+* main - Print the name of the program
 * @argc: Count arguments
 * @argv: Arguments
 * Return: Always 0 (Success)
@@ -34,6 +34,7 @@ int str_to_int;
 int sum = 0;
 cot = 1;
 while (cot < argc)
+{
 if (check_num(argv[cot]))
 {
 str_to_int = atoi(argv[cot]);
@@ -44,7 +45,7 @@ else
 printf("Error\n");
 return (1);
 }
-count++;
+cot++;
 }
 printf("%d\n", sum);
 return (0);
