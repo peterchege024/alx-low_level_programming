@@ -48,7 +48,7 @@ return (1);
 }
 nm1 = _atoi(argv[1]);
 nm2 = _atoi(argv[2]);
-rst = nm1 * nm2;
+rst = nm1 *nm2;
 printf("%d\n", rst);
 return (0);
 }
