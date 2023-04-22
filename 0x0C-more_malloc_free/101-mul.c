@@ -80,7 +80,7 @@ for (v = 0; v < ln - 1; v++)
 if (result[v])
 n = 1;
 if (n)
-_putchar(result[i] + '0');
+_putchar(result[v] + '0');
 }
 if (!n)
 _putchar('0');
