@@ -68,7 +68,7 @@ c = 0;
 for (ln2 = _strlen(s2) - 1; ln2 >= 0; ln2--)
 {
 dgt2 = s2[ln2] - '0';
-c += result[ln1 + ln2 + 1] + (dgt1 * dgt2);
+c += result[ln1 + ln2 + 1] + (dgt1 *dgt2);
 result[ln1 + ln2 + 1] = c % 10;
 c /= 10;
 }
