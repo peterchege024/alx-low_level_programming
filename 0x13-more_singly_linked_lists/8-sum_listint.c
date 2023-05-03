@@ -10,7 +10,7 @@ int sm = 0;
 listint_t *temp = head;
 while (temp)
 {
-sum += temp->n;
+sm += temp->n;
 temp = temp->next;
 }
 return (sm);
