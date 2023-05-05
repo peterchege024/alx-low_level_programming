@@ -12,7 +12,7 @@ unsigned long int ct;
 unsigned long int ecl = n ^ m;
 for (k = 63; k >= 0; k--)
 {
-ct = ecl >> i;
+ct = ecl >> k;
 if (ct & 1)
 cnt++;
 }
