@@ -54,7 +54,7 @@ f = open(argv[1], O_RDONLY);
 h = read(f, buffer, 1024);
 g = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 do {
-if (f == -1 || g == -1)
+if (f == -1 || h == -1)
 {
 dprintf(STDERR_FILENO,
 "Error: Can't read from file %s\n", argv[1]);
